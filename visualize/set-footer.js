@@ -16,4 +16,4 @@ $('#footer-info').append($('<p>').html('&copy; ' + footer_data.copyright.year + 
     .append($('<a>').attr('href', footer_data.copyright.organization.link).attr('target', '_blank').html(footer_data.copyright.organization.name))
     .append(footer_data.copyright.organization.suffix)
 );
-$('#footer-info').append($('<p>').attr('id', 'contact').append($('<i>').addClass('fa fa-paper-plane')).append(' Contact: ').append($('<a>').attr('href', 'mailto:' + footer_data.site.support + '?subject=Mail From Y-Lab Website').html(footer_data.site.support)));
+$('#footer-info').append($('<p>').attr('id', 'contact').append($('<i>').addClass('fa fa-paper-plane-o')).append(' Contact: ').append($('<a>').attr('href', 'mailto:' + footer_data.site.support + '?subject=Mail From Y-Lab Website').html(footer_data.site.support)));
