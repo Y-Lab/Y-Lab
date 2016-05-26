@@ -7,6 +7,9 @@ body {
     padding: 40px 15px;
     text-align: center;
 }
+.y-lab-nanme {
+    font-size: 40px;
+}
 .y-lab-footer {
     text-align: center;
     padding-top: 40px;
