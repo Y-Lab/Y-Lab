@@ -40,6 +40,11 @@ body {
     margin-bottom: 5px;
 }
 
+/* Color */
+.color-black {
+    color: #000;
+}
+
 /* Outline button for use within the docs */
 .btn-outline {
     color: #4078c0;
