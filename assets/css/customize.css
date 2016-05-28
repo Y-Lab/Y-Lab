@@ -39,3 +39,10 @@ body {
     font-weight: 400;
     margin-bottom: 5px;
 }
+
+/* button */
+.btn-outline {
+    color: #4078c0;
+    background-color: transparent;
+    border-color: #4078c0;
+}
