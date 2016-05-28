@@ -5,7 +5,7 @@ function getCurrentYear() {
     return currentDate.getFullYear();
 };
 
-var footer_data = $.getJSON('visualize/data/footer-data.json');
+footer_data = $.getJSON('visualize/data/footer-data.json');
 $('#footer-info').append($('<p>').append($('<a>').attr('href', footer_data.site.link).html(footer_data.site.name)).append(' (' + footer_data.site.version + ')'));
 $('#footer-info').append($('<p>').attr('id', 'powered-by').html('Powered by '));
 for (var i in footer_data.powered_by) {
