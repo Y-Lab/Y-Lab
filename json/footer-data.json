@@ -1,11 +1,9 @@
 {
-    "copyright": {
-        "organization": {
-            "link": "http://www.y-english.org/",
-            "name": "Y-English",
-            "prefix": "Beijing ",
-            "suffix": " Education & Technology Co., Ltd."
-        }
+    "organization": {
+        "link": "http://www.y-english.org/",
+        "name": "Y-English",
+        "prefix": "Beijing ",
+        "suffix": " Education & Technology Co., Ltd."
     },
     "powered_by": [
         {
