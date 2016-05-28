@@ -1,0 +1,38 @@
+{
+    "copyright": {
+        "organization": {
+            "link": "http://www.y-english.org/",
+            "name": "Y-English",
+            "prefix": "Beijing ",
+            "suffix": " Education & Technology Co., Ltd."
+        }
+    },
+    "powered_by": [
+        {
+            "link": "http://getbootstrap.com/",
+            "name": "Bootstrap",
+            "version": "v3.3.6"
+        },
+        {
+            "link": "http://jquery.com/",
+            "name": "jQuery",
+            "version": "v1.11.3"
+        },
+        {
+            "link": "http://necolas.github.io/normalize.css/",
+            "name": "normalize.css",
+            "version": "v4.0.0"
+        },
+        {
+            "link": "http://fortawesome.github.io/Font-Awesome/",
+            "name": "Font Awesome",
+            "version": "v4.6.3"
+        }
+    ],
+    "site": {
+        "link": "http://lab.y-english.org/",
+        "name": "Y-English Research and Development Laboratory",
+        "support": "dev@y-english.org",
+        "version": "Official Website"
+    }
+}
