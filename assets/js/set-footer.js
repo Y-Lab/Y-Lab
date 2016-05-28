@@ -1,7 +1,7 @@
 // set-footer.js
 
 $.getJSON('../json/footer-data.json', function(data) {
-    $('#footer-info').append($('<p>').append($('<i>').addClass('fa fa-flask')));
+    $('#footer-info').append($('<p>').append($('<i>').addClass('fa fa-flask fa-5x')));
     $('#footer-info').append($('<p>').append($('<a>').attr('href', data.site.link).html(data.site.name)).append(' (' + data.site.version + ')'));
     $('#footer-info').append($('<p>').attr('id', 'powered-by').html('Powered by '));
     for (var i in data.powered_by) {
