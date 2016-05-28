@@ -17,7 +17,7 @@ $.getJSON('./json/footer-data.json', function(data) {
             $('#powered-by').append(' &middot; ').append($('<a>').attr('href', powered_by.link).attr('target', '_blank').html(powered_by.name)).append(' ' + powered_by.version);
         }
     }
-    $('#footer-info').append($('<p>').html('&copy; ' + function(var currentDate = new Date()){return currentDate.getFullYear();} + ' ')
+    $('#footer-info').append($('<p>').html(function(){var currentDate = new Date(); return '&copy; ' +  currentDate.getFullYear() + ' ';})
         .append(data.organization.prefix)
         .append($('<a>').attr('href', data.organization.link).attr('target', '_blank').html(data.organization.name))
         .append(data.organization.suffix)
