@@ -40,14 +40,31 @@ body {
     margin-bottom: 5px;
 }
 
-/* button */
+/* Outline button for use within the docs */
 .btn-outline {
     color: #4078c0;
     background-color: transparent;
     border-color: #4078c0;
 }
-.btn-outline:hover {
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active {
     color: #fff;
     background-color: #4078c0;
     border-color: #4078c0;
+}
+
+/* Inverted outline button (white on dark) */
+.btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: #c4d6ed;
+}
+.btn-outline-inverse:hover,
+.btn-outline-inverse:focus,
+.btn-outline-inverse:active {
+  color: #4078c0;
+  text-shadow: none;
+  background-color: #fff;
+  border-color: #fff;
 }
