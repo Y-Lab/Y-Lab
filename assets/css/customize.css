@@ -56,15 +56,15 @@ body {
 
 /* Inverted outline button (white on dark) */
 .btn-outline-inverse {
-  color: #fff;
-  background-color: transparent;
-  border-color: #c4d6ed;
+    color: #fff;
+    background-color: transparent;
+    border-color: #c4d6ed;
 }
 .btn-outline-inverse:hover,
 .btn-outline-inverse:focus,
 .btn-outline-inverse:active {
-  color: #4078c0;
-  text-shadow: none;
-  background-color: #fff;
-  border-color: #fff;
+    color: #4078c0;
+    text-shadow: none;
+    background-color: #fff;
+    border-color: #fff;
 }
