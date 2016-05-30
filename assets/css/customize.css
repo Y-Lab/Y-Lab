@@ -53,7 +53,7 @@ body {
 }
 
 /* Dropdown menu */
-.dropdown-menu {
+/*.dropdown-menu {
     border: none;
     border-radius: inherit;
     -webkit-box-shadow: none;
@@ -67,7 +67,7 @@ body {
 .dropdown-menu li a,
 .dropdown-menu li a:hover {
     color: #555;
-}
+}*/
 
 /* Outline button for use within the docs */
 .btn-outline {
