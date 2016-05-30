@@ -53,21 +53,11 @@ body {
 }
 
 /* Dropdown menu */
-/*.dropdown-menu {
-    border: none;
-    border-radius: inherit;
+.dropdown-menu {
+    border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-.nav .open>a,
-.nav .open>a:hover,
-.nav .open>a:focus {
-    background-color: #f9f9f9;
-}
-.dropdown-menu li a,
-.dropdown-menu li a:hover {
-    color: #555;
-}*/
 
 /* Outline button for use within the docs */
 .btn-outline {
