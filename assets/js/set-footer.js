@@ -1,7 +1,6 @@
 // set-footer.js
 
-$.getJSON('../json/footer-data.json', function(data) {
-    $('#site-version').append($('<i>').addClass('fa fa-globe').attr('aria-hidden', 'true')).append(' ' + data.site.version);
+$.getJSON('../json/site-info.json', function(data) {
     $('#footer-info').append($('<p>').append($('<a>').attr('href', data.site.link).html(data.site.name)).append(' (' + data.site.version + ')'));
     $('#footer-info').append($('<p>').attr('id', 'powered-by').html('Powered by '));
     for (var i in data.powered_by) {
