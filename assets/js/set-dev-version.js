@@ -1,8 +1,4 @@
-// set-version-dev.js
-
-$.getJSON('http://lab.y-english.org/json/site-info.json', function(data) {
-    $('#site-version').append($('<i>').addClass('fa fa-globe').attr('aria-hidden', 'true')).append(' ' + data.site.version);
-});
+// set-dev-version.js
 
 function updateVersion() {
     $.getJSON('https://api.github.com/repos/Y-Lab/Y-Lab.github.io', function(data) {
