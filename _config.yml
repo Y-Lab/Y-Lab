@@ -1,0 +1,38 @@
+version:
+  jquery: 3.1.1
+  bootstrap: 3.3.7
+  font_awesome: 4.7.0
+  moment: 2.17.1
+
+google_analytics_id: UA-84829010-3
+
+repository: https://github.com/Y-Lab/Y-Lab
+
+timezone: Asia/Shanghai
+
+name: Y-Lab
+author: iROCKBUNNY
+author_url: http://irockbunny.com
+organization: Y-English
+organization_url: http://www.y-english.org
+description: Y-English Research and Development Laboratory
+url: http://lab.y-english.org
+contact: dev@y-english.org
+github: https://github.com/Y-Lab
+
+logo: /img/logo/logo-dark.png
+
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor

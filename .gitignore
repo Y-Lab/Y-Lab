@@ -1,11 +1,13 @@
+# Jekyll
 _site/
 .sass-cache/
 .jekyll-metadata
 
-_site/*
+# Ruby
+Gemfile.lock
 
-Thumbs.db
+# macOS
 .DS_Store
 
-*.gem
-*.lock
+# Windows
+Thumbs.db
