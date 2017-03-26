@@ -8,7 +8,7 @@ dev_logs: true
       <p><i class="fa fa-rocket fa-5x fa-fw" aria-hidden="true"></i></p>
       <h1 class="y-lab-name">Dev Logs</h1>
       <p class="y-lab-fullname lead">{{ site.description }}</p>
-      <p id="dev-log-version" class="text-muted"><i class="fa fa-refresh fa-spin fa-fw color-dark-gray" aria-hidden="true"></i>Updated ? time ago</p>
+      <p id="dev-log-version" class="text-muted" data-update-at="{{ site.time | date_to_xmlschema }}"><i class="fa fa-refresh fa-spin fa-fw color-dark-gray" aria-hidden="true"></i>Updated ? time ago</p>
     </div>
   </div>
 </main>
