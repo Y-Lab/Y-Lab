@@ -16,7 +16,7 @@ github: https://github.com/Y-Lab
 
 logo: /img/logo/logo-dark.png
 
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 
