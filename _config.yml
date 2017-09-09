@@ -4,16 +4,19 @@ repository: https://github.com/Y-Lab/Y-Lab
 
 timezone: Asia/Shanghai
 
-name: Y-Lab
+title: Y-Lab
+description: Y-English Research and Development Laboratory
+url: http://lab.y-english.org
+
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: Y-English
 organization_url: http://www.y-english.org
-description: Y-English Research and Development Laboratory
-url: http://lab.y-english.org
+
 contact: dev@y-english.org
 github: https://github.com/Y-Lab
 
+image: /img/logo/logo-dark.png
 logo: /img/logo/logo-dark.png
 
 plugins:
