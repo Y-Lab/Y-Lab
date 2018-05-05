@@ -6,12 +6,12 @@ timezone: Asia/Shanghai
 
 title: Y-Lab
 description: Y-English Research and Development Laboratory
-url: http://lab.y-english.org
+url: https://lab.y-english.org
 
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: Y-English
-organization_url: http://www.y-english.org
+organization_url: https://y-english.org
 
 contact: dev@y-english.org
 github: https://github.com/Y-Lab
