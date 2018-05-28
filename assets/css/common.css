@@ -87,11 +87,3 @@ body {
     background-color: #fff;
     border-color: #fff;
 }
-
-.beian a,
-.beian a:hover,
-.beian a:focus,
-.beian a:active {
-    color: #777;
-    text-decoration: none;
-}
