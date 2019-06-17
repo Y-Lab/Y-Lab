@@ -1,9 +1,9 @@
 <footer class="y-lab-footer" role="contentinfo">
   <div class="container">
-    <p><i class="fa fa-flask fa-3x fa-fw color-dark-gray" aria-hidden="true"></i></p>
+    <p><i class="fas fa-flask fa-3x fa-fw color-dark-gray" aria-hidden="true"></i></p>
     <p><a href="{{ site.url }}">{{ site.description }}</a> (Official Website)</p>
     <p>Powered by {% for item in site.data.powered_by %}{% unless forloop.first %} &middot; {% endunless %}<a href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% if item.version %} v{{ item.version }}{% endif %}{% endfor %}</p>
-    <p>&copy; {{ site.time | date: "%Y" }} Beijing <a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a> Education &amp; Technology Co., Ltd.</p>
-    <p id="contact"><i class="fa fa-paper-plane-o fa-fw" aria-hidden="true"></i>Contact: <a href="mailto:{{ site.contact }}?subject=Mail From {{ site.title }} Website">{{ site.contact }}</a></p>
+    <p><i class="far fa-copyright fa-fw" aria-hidden="true"></i>{{ site.time | date: "%Y" }} Beijing <a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a> Education &amp; Technology Co., Ltd.</p>
+    <p id="contact"><i class="fas fa-paper-plane fa-fw" aria-hidden="true"></i>Contact: <a href="mailto:{{ site.contact }}?subject=Mail From {{ site.title }} Website">{{ site.contact }}</a></p>
   </div>
 </footer>
